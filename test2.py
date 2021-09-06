@@ -21,5 +21,4 @@ radio_selection = driver.find_elements_by_class_name(
 
 text_box[1].send_keys("Nope. I am Selenium.")
 
-submit = driver.find_elements_by_class_name(
-    "appsMaterialWizButtonPaperbuttonContent")[0].click()
+#submit = driver.find_elements_by_class_name("appsMaterialWizButtonPaperbuttonContent")[0].click()
