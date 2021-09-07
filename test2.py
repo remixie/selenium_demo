@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 file = open("path.txt")
 PATH = file.read()
 
-print(PATH)
 driver = webdriver.Chrome(PATH)
 driver.get('https://forms.gle/1xKE9t5Mr75adPDDA')
 time.sleep(0.5)
